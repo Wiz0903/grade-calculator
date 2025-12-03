@@ -1,0 +1,7 @@
+Tshokolo,85
+Thandi,78
+Sipho,92
+Karabo,65
+Tshepo,32
+John,95
+Jane,28

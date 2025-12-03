@@ -1,0 +1,4 @@
+Average: 67.86
+Highest mark: 95
+Lowest mark: 28
+Number of distinctions: 3
