@@ -1,7 +1,7 @@
 count = 0 # number of students
 total = 0 # sum of all marks
-max_mark = 0 # track highest mark
-min_mark = 50 # track lowest mark (starting value)
+max_mark = -1 # track highest mark
+min_mark = 101 # track lowest mark (starting value)
 count_distinctions = 0 # number of marks above 80
 
 with open("grades.txt", "r") as f:
@@ -12,9 +12,9 @@ with open("grades.txt", "r") as f:
             total += int(lines[1]) # add mark to total
         
             if int(lines[1]) > int(max_mark): # check for new highest
-                max_mark = lines[1]
+                max_mark = int(lines[1])
             elif int(lines[1]) < int(min_mark): # check for new lowest
-                min_mark = lines[1]
+                min_mark = int(lines[1])
             
             if int(lines[1]) > 80: # count distinctions
                 count_distinctions += 1
